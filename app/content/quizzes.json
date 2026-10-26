@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Fishing xabariga duch kelsangiz, nima qilish ma’qul?",
+    "options": [
+      "Havolani darhol ochish",
+      "Jo‘natuvchi va domenni tekshirish",
+      "Parolni yuborish"
+    ],
+    "correct": 1,
+    "explanation": "Jo‘natuvchi va domenni tekshiring. Shubhali havolani ochmang."
+  },
+  {
+    "question": "SQL Injection'dan himoyalanishning muhim usuli qaysi?",
+    "options": [
+      "Parametrli SQL so‘rovlari",
+      "Barcha foydalanuvchilarga admin huquqi berish",
+      "Parollarni kod ichida saqlash"
+    ],
+    "correct": 0,
+    "explanation": "Parametrli so‘rovlar foydalanuvchi ma’lumotini SQL kodidan ajratadi."
+  },
+  {
+    "question": "HTTPS nimaga yordam beradi?",
+    "options": [
+      "Har qanday saytni halol ekanini kafolatlaydi",
+      "Aloqani TLS orqali shifrlashga",
+      "Barcha viruslarni o‘chiradi"
+    ],
+    "correct": 1,
+    "explanation": "HTTPS aloqa xavfsizligini yaxshilaydi, lekin saytning ishonchliligini kafolatlamaydi."
+  },
+  {
+    "question": "Authentication nimani anglatadi?",
+    "options": [
+      "Foydalanuvchi kimligini tekshirish",
+      "Tarmoq tezligini oshirish",
+      "Fayl hajmini kamaytirish"
+    ],
+    "correct": 0,
+    "explanation": "Authentication foydalanuvchi yoki tizim identifikatsiyasini tekshiradi."
+  },
+  {
+    "question": "Begona tizimda xavfsizlik testini qachon o‘tkazish mumkin?",
+    "options": [
+      "Istalgan paytda",
+      "Faqat tizim egasining tegishli ruxsati bilan",
+      "Faqat kechasi"
+    ],
+    "correct": 1,
+    "explanation": "Tekshiruv faqat tegishli ruxsat va kelishilgan qamrov doirasida bajarilishi kerak."
+  }
+]

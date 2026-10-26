@@ -1,0 +1,126 @@
+{
+  "internet": {
+    "title": "🌐 Internet xavfsizligi",
+    "text": "Internetda xavfsiz bo‘lish asoslari",
+    "topics": [
+      {
+        "title": "Fishing",
+        "body": "Fishing — foydalanuvchini aldab, uning paroli yoki boshqa maxfiy ma’lumotlarini olishga urinish. Noma’lum xabarlardagi havolalarga shoshilib kirmang. Sayt manzilini tekshiring va parol yoki tasdiqlash kodlarini hech kimga bermang."
+      },
+      {
+        "title": "Kuchli parol",
+        "body": "Har bir akkaunt uchun alohida va uzun parol ishlating. Parollarni xavfsiz password manager dasturida saqlashingiz mumkin. Ikki bosqichli autentifikatsiyani yoqing."
+      },
+      {
+        "title": "Ijtimoiy muhandislik",
+        "body": "Firibgarlar o‘zini bank xodimi, tanish yoki texnik yordam mutaxassisi sifatida ko‘rsatishi mumkin. Shoshiltirish va maxfiy kod so‘rash — ehtiyot bo‘lish kerak bo‘lgan belgilar."
+      }
+    ]
+  },
+  "appsec": {
+    "title": "🛡 Application Security",
+    "text": "Dastur va veb-ilovalarni xavfsiz yaratish asoslari",
+    "topics": [
+      {
+        "title": "SQL Injection",
+        "body": "SQL Injection foydalanuvchi kiritgan ma’lumot SQL so‘roviga xavfli tarzda qo‘shilganda yuz berishi mumkin. Himoya uchun parametrli so‘rovlardan yoki ORM vositalaridan foydalaning. Foydalanuvchi kiritgan matnni SQL kodiga to‘g‘ridan-to‘g‘ri qo‘shmang."
+      },
+      {
+        "title": "XSS",
+        "body": "Cross-Site Scripting (XSS) veb-sahifada ishonchsiz ma’lumot noto‘g‘ri ko‘rsatilganda yuzaga kelishi mumkin. Kontekstga mos output encoding, xavfsiz shablonlar va kerakli hollarda Content Security Policy yordam beradi."
+      },
+      {
+        "title": "Authentication va Authorization",
+        "body": "Authentication — foydalanuvchi kimligini tekshirish. Authorization — unga qaysi amallar va resurslarga ruxsat berilganini tekshirish. Har bir himoyalangan endpoint tegishli ruxsatlarni server tomonida tekshirishi kerak."
+      },
+      {
+        "title": "API xavfsizligi",
+        "body": "API endpointlarda autentifikatsiya, obyekt darajasidagi ruxsatlar, so‘rovlar validatsiyasi va tezlik cheklovlarini tekshiring. Maxfiy kalitlarni frontend yoki ochiq repozitoriyda saqlamang."
+      }
+    ]
+  },
+  "network": {
+    "title": "🖧 Networking",
+    "text": "Tarmoqlar va ularni himoyalash asoslari",
+    "topics": [
+      {
+        "title": "IP va port",
+        "body": "IP manzil tarmoqdagi qurilma interfeysini aniqlashga yordam beradi. Port esa muayyan qurilmadagi tarmoq xizmatiga murojaat qilish uchun ishlatiladi. Keraksiz ochiq portlarni cheklang."
+      },
+      {
+        "title": "DNS",
+        "body": "DNS domen nomlarini IP manzillarga moslashtiradi. Domen nomini sinchiklab tekshiring: firibgarlar haqiqiy manzilga o‘xshash nomlardan foydalanishi mumkin."
+      },
+      {
+        "title": "HTTPS va TLS",
+        "body": "HTTPS HTTP aloqasini TLS yordamida himoyalaydi. Brauzerdagi HTTPS belgisi aloqaning shifrlanganini ko‘rsatadi, ammo saytning halol yoki firibgar emasligini kafolatlamaydi."
+      },
+      {
+        "title": "Firewall",
+        "body": "Firewall tarmoq trafigini belgilangan qoidalar asosida ruxsat etadi yoki bloklaydi. Faqat zarur ulanishlarga ruxsat berish va qoidalarni muntazam ko‘rib chiqish muhim."
+      }
+    ]
+  },
+  "linux": {
+    "title": "🐧 Linux Security",
+    "text": "Linux tizimlarini himoyalash",
+    "topics": [
+      {
+        "title": "Fayl ruxsatlari",
+        "body": "Linux tizimida fayl va katalog ruxsatlari kim o‘qishi, yozishi yoki ishga tushirishi mumkinligini belgilaydi. Keraksiz keng ruxsat bermang va administrator huquqlarini faqat zarur hollarda ishlating."
+      },
+      {
+        "title": "Yangilanishlar",
+        "body": "Operatsion tizim va dasturlarni yangilab turish ma’lum zaifliklarning tuzatilishiga yordam beradi. Yangilanishlarni ishonchli manbalardan o‘rnating."
+      }
+    ]
+  },
+  "ethical": {
+    "title": "🔬 Ethical Hacking",
+    "text": "Ruxsat bilan xavfsizlik tekshiruvini o‘rganish",
+    "topics": [
+      {
+        "title": "Ruxsat va qamrov",
+        "body": "Xavfsizlik tekshiruvini faqat o‘zingizga tegishli yoki tekshirish uchun aniq ruxsat berilgan tizimlarda bajaring. Tekshiruvdan oldin qamrov, ruxsat va cheklovlarni belgilang."
+      },
+      {
+        "title": "Zaiflikni hisobot qilish",
+        "body": "Muammoni hujjatlashtirganda uning ta’sirini, takrorlash uchun xavfsiz shartlarni va tuzatish tavsiyasini yozing. Begona ma’lumotlarga kirmang va xizmat ishiga zarar yetkazmang."
+      }
+    ]
+  },
+  "crypto": {
+    "title": "🔐 Cryptography",
+    "text": "Ma’lumotlarni shifrlash va yaxlitligini himoyalash",
+    "topics": [
+      {
+        "title": "Shifrlash va xeshlash",
+        "body": "Shifrlash ma’lumotni tegishli kalit bilan qayta o‘qish imkonini beradi. Xeshlash esa ma’lumotdan belgilangan uzunlikdagi qiymat hosil qiladi. Parollarni oddiy matn yoki oddiy SHA-256 xeshi sifatida saqlamang; maxsus password hashing algoritmlaridan foydalaning."
+      }
+    ]
+  },
+  "cloud": {
+    "title": "☁️ Cloud Security",
+    "text": "Bulutli tizimlar xavfsizligi",
+    "topics": [
+      {
+        "title": "Kirish huquqlari",
+        "body": "Bulutdagi foydalanuvchi va xizmatlarga faqat kerakli minimal huquqlarni bering. Maxfiy kalitlarni himoyalang, ommaviy saqlash sozlamalarini tekshiring va audit jurnallarini yoqing."
+      }
+    ]
+  },
+  "malware": {
+    "title": "🦠 Malware va himoyalanish",
+    "text": "Zararli dasturlarni tanish va ulardan himoyalanish",
+    "topics": [
+      {
+        "title": "Zararli fayllar",
+        "body": "Noma’lum jo‘natuvchidan kelgan fayllarni ochmang. Dasturlarni rasmiy manbalardan o‘rnating, tizimni yangilab turing va muhim ma’lumotlarning zaxira nusxalarini saqlang."
+      },
+      {
+        "title": "Hodisa yuz berganda",
+        "body": "Qurilmada zararli faoliyat bor deb gumon qilsangiz, uni tarmoqdan uzish zarur bo‘lishi mumkin. Ish joyidagi qurilma bo‘lsa, mas’ul IT yoki xavfsizlik xodimiga xabar bering. Muhim dalillarni o‘chirmang."
+      }
+    ]
+  }
+}
