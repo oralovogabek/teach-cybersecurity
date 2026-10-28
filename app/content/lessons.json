@@ -1,10 +1,11 @@
+
 {
   "internet": {
     "title": "🌐 Internet xavfsizligi",
     "text": "Internetda xavfsiz bo‘lish asoslari",
     "topics": [
       {
-        "title": "Fishing",
+        "title": "Fishing (Phishing)",
         "body": "Fishing — foydalanuvchini aldab, uning paroli yoki boshqa maxfiy ma’lumotlarini olishga urinish. Noma’lum xabarlardagi havolalarga shoshilib kirmang. Sayt manzilini tekshiring va parol yoki tasdiqlash kodlarini hech kimga bermang."
       },
       {
@@ -85,7 +86,7 @@
       },
       {
         "title": "Zaiflikni hisobot qilish",
-        "body": "Muammoni hujjatlashtirganda uning ta’sirini, takrorlash uchun xavfsiz shartlarni va tuzatish tavsiyasini yozing. Begona ma’lumotlarga kirmang va xizmat ishiga zarar yetkazmang."
+        "body": "Muammoni hujjatlashtirganda uning ta’sirini, xavfsiz takrorlash shartlarini va tuzatish tavsiyasini yozing. Begona ma’lumotlarga kirmang va xizmat ishiga zarar yetkazmang."
       }
     ]
   },
@@ -120,6 +121,60 @@
       {
         "title": "Hodisa yuz berganda",
         "body": "Qurilmada zararli faoliyat bor deb gumon qilsangiz, uni tarmoqdan uzish zarur bo‘lishi mumkin. Ish joyidagi qurilma bo‘lsa, mas’ul IT yoki xavfsizlik xodimiga xabar bering. Muhim dalillarni o‘chirmang."
+      }
+    ]
+  },
+  "telegram": {
+    "title": "📱 Telegram xavfsizligi",
+    "text": "Telegram akkauntingizni himoyalashni o‘rganing",
+    "topics": [
+      {
+        "title": "Ikki bosqichli himoya",
+        "body": "Telegram sozlamalaridagi Two-Step Verification funksiyasini yoqing. Kuchli va boshqa joylarda ishlatilmaydigan qo‘shimcha parol tanlang. Tiklash uchun email qo‘shsangiz, uning xavfsizligini ham ta’minlang. Telegram login kodi yoki parolingizni hech kimga bermang."
+      },
+      {
+        "title": "Faol sessiyalar",
+        "body": "Telegram sozlamalaridagi Devices yoki Active Sessions bo‘limini tekshiring. O‘zingiz tanimaydigan qurilma yoki sessiyani ko‘rsangiz, uni tugating va akkauntingizni himoyalang. Login kodlarini boshqalarga yubormang."
+      },
+      {
+        "title": "Soxta Telegram xabarlari",
+        "body": "Sovrin yutganingiz, akkauntingiz bloklanishi yoki tasdiqlash zarurligi haqida kelgan kutilmagan xabarlardan ehtiyot bo‘ling. Havola, jo‘natuvchi va so‘ralayotgan ma’lumotlarni tekshiring. Shubhali botga parol, login kodi yoki maxfiy ma’lumot bermang."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "🕵️ Maxfiylik va shaxsiy ma’lumotlar",
+    "text": "Internetda shaxsiy ma’lumotlaringizni himoyalash",
+    "topics": [
+      {
+        "title": "Shaxsiy ma’lumotlar",
+        "body": "Pasport ma’lumotlari, manzil, telefon raqami, parollar va tasdiqlash kodlarini ommaga oshkor qilmang. Ilova yoki sayt ma’lumot so‘rasa, nima uchun kerakligini va manbaning ishonchliligini tekshiring."
+      },
+      {
+        "title": "Ilova ruxsatlari",
+        "body": "Ilovalarning kamera, mikrofon, kontaktlar va joylashuvga ruxsatlarini ko‘rib chiqing. Ilova vazifasi uchun zarur bo‘lmagan ruxsatlarni o‘chirib qo‘ying. Dasturlarni ishonchli manbalardan yuklab oling."
+      },
+      {
+        "title": "Ommaviy Wi-Fi",
+        "body": "Ommaviy Wi-Fi tarmog‘ida maxfiy ma’lumotlar bilan ishlaganda ehtiyot bo‘ling. HTTPS himoyasiga e’tibor bering, noma’lum tarmoqlarga avtomatik ulanishni o‘chiring va xavfsizlik ogohlantirishlarini e’tiborsiz qoldirmang."
+      }
+    ]
+  },
+  "scams": {
+    "title": "🚨 Internet firibgarligi",
+    "text": "Firibgarlik belgilarini aniqlash va to‘g‘ri harakat qilish",
+    "topics": [
+      {
+        "title": "Soxta sovrinlar",
+        "body": "Sovrin olish uchun oldindan pul to‘lash, bank ma’lumotlari yoki SMS kodini yuborish talab qilinsa, ehtiyot bo‘ling. Taklifni tashkilotchining mustaqil ravishda topilgan rasmiy manbasi orqali tekshiring."
+      },
+      {
+        "title": "Soxta ish takliflari",
+        "body": "Juda oson ish uchun katta daromad va’da qilinishi, ishga kirish uchun pul so‘ralishi yoki maxfiy ma’lumotlar talab qilinishi xavf belgisi bo‘lishi mumkin. Kompaniyani mustaqil tekshiring va shoshilinch qaror qilmang."
+      },
+      {
+        "title": "Aldovga uchraganda",
+        "body": "Agar ma’lumotlaringizni firibgarga bergan bo‘lsangiz, xavfsiz qurilmadan tegishli akkaunt parolini almashtiring, faol sessiyalarni tekshiring va ikki bosqichli himoyani yoqing. Bank ma’lumotlari xavf ostida bo‘lsa, bankingizga darhol murojaat qiling. Dalillarni saqlang va zarur bo‘lsa, tegishli organlarga xabar bering."
       }
     ]
   }
